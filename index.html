@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamus Mandar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kamus Bahasa Mandar</h1>
+      <input id="searchInput" type="text" placeholder="Cari kata..." />
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="umum">Umum</button>
+        <button class="filter-btn" data-filter="aktivitas">Aktivitas</button>
+        <button class="filter-btn" data-filter="alam">Alam</button>
+      </div>
+      <div id="resultCount"></div>
+      <ul id="dictionaryList"></ul>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
